@@ -1,8 +1,21 @@
 body{
-    overflow: scroll;
     background-image: url('https://images.hdqwalls.com/wallpapers/dark-minimalist-blur-4k-4o.jpg');
 
 }
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #ff0080;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #110929;
+    border-radius: 20px;
+    border: 3px solid #ff0080;
+  }
 
 .carousel{
     padding: 40px;
@@ -36,6 +49,12 @@ img{
 
 .card-img-top{
     max-width: fit-content;
+}
+.Instagram{
+    color: transparent;
+    background-image: url('https://i.ytimg.com/vi/8j9szxn-68c/maxresdefault.jpg');
+    background-size: 75px;
+    -webkit-background-clip: text;
 }
 
 .insta{
